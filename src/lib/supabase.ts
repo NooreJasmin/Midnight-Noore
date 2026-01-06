@@ -1,6 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from './database.types';
 
+// ✅ Use import.meta.env for Vite
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 

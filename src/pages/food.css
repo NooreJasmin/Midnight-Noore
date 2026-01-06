@@ -1,0 +1,29 @@
+.food-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.food-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.food-card button {
+  background: #5a189a;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
